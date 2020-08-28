@@ -6,3 +6,17 @@ The DnCNN-S model solves the problem of denoising images with gaussian noise of 
 
 ## Model 2 - DnCNN-B
 The DnCNN – B model is a more efficient variation of the previous denoising model. This model is not restricted by an image’s noise profile. Instead it is capable of denoising images with any type of gaussian noise profile. Although theoretically the range of noise profile can be infinite, for the purposes of this project, the noise values are limited to the range σ=[0-55].
+
+**Denoising Results**
+
+![not found](https://github.com/iamVarunAnand/Residual-Image-Denoising/blob/master/results/DnCNN-S(Set12)/Denoised4.png) 
+![not found](https://github.com/iamVarunAnand/Residual-Image-Denoising/blob/master/results/DnCNN-S(Set12)/Denoised3.png)
+![not found](https://github.com/iamVarunAnand/Residual-Image-Denoising/blob/master/results/DnCNN-S(Set12)/Denoised1.png)
+
+## Model 3 - DnCNN-3
+This model is the most generic and also the most superior model when compared to the other two. The DnCNN-3 isn’t restricted to the Gaussian Denoising task, but is capable of denoising other noise varieties as well. As mentioned previously, in this project two other denoising applications are explored, namely, Single Image Super Resolution (SISR) and JPEG Image Deblocking. 
+
+**Denoising Results**
+
+![not found](https://github.com/iamVarunAnand/Residual-Image-Denoising/blob/master/results/DnCNN-3/input.png)
+![not found](https://github.com/iamVarunAnand/Residual-Image-Denoising/blob/master/results/DnCNN-3/output.png)
